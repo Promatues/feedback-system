@@ -12,9 +12,7 @@ function About() {
 
   return (
     <div>
-      <Box sx={{ borderRadius: 4, border:"solid", border: 1, padding: 38, margin: 1, backgroundColor: '#D9D9D9', display: 'flex' }}>
-
-      </Box>
+      Hello
     </div>
   );
 }
