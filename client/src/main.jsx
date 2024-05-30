@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFoundPage/NotFound";
 import AppToolbar from "./components/NavigationComponents/Toolbar";
 import WarningMessage from "./components/WarningMessage/WarningMessage";
 import Forms from "./pages/FormsPage/Forms";
+import FormsInfo from "./pages/FormsInfoPage/FormsInfo";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/forms" element={<Forms />} />
+          <Route path="/formsInfo" element={<FormsInfo />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
